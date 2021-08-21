@@ -1,7 +1,7 @@
 # Setup VSCode for development
 
-- Install VSCode `$ brew install vscode`
-- Install VSCode Python Extention
+- Install VSCode `$ brew install --cask visual-studio-code`
+- Install VSCode [Python Extention](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - Install black, isort, and pylint
 ```shell
 $ pip3 install black
