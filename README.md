@@ -32,3 +32,17 @@ $ pip3 install pylint
 ```
 - Always use [virtual environment](https://docs.python.org/3/library/venv.html)
 
+## Setup isort profile (per project) 
+add `pyproject.toml` to root folder of the project 
+```toml
+[tool.isort]
+profile = "black"
+known_first_party="{Your first party packages separated by comma}"
+```
+
+example
+```toml
+[tool.isort]
+profile = "black"
+known_first_party="atlas, tests"
+```
